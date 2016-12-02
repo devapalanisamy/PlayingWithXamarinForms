@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:local="clr-namespace:PrismUnityApp1;assembly=PrismUnityApp1"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PrismUnityApp1.Views.MainPage"
+             Title="TG Staff">
+  <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+    <local:CustomLabel Text="{Binding Title}" >
+             <!--  <Label.FontFamily>
+        <OnPlatform x:TypeArguments="x:String">
+            <OnPlatform.iOS>Myriad Pro</OnPlatform.iOS>
+            <OnPlatform.Android>Lobster-Regular.ttf#Lobster-Regular</OnPlatform.Android> 
+            <OnPlatform.Android>Lobster-Regular.ttf#Lobster-Regular</OnPlatform.Android> 
+            <OnPlatform.WinPhone>/Assets/Fonts/Lobster-Regular.ttf#Lobster</OnPlatform.WinPhone>
+        </OnPlatform>
+    </Label.FontFamily> -->
+    </local:CustomLabel>
+    <Button Text=" Go to second page" Command="{Binding GoToDetailPage}" />
+  </StackLayout>
+</ContentPage>
