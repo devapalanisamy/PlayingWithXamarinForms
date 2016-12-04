@@ -1,4 +1,5 @@
 ﻿using Prism.Commands;
+using System.Diagnostics;
 using Xamarin.Forms;
 
 namespace PrismUnityApp1.Views
@@ -7,34 +8,9 @@ namespace PrismUnityApp1.Views
     {
         public MainPage()
         {
-            /***
-            var labelRedStyle = new Style(typeof(Label))
-            {
-                Setters = {
-                new Setter { Property = Label.TextColorProperty, Value = Color.Red  }
-            }
-            };
-            var labelGreenStyle = new Style(typeof(Label))
-            {
-                Setters = {
-                new Setter { Property = Label.TextColorProperty, Value = Color.Green }
-            }
-            };
-            var labelBlueStyle = new Style(typeof(Label))
-            {
-                Setters = {
-                new Setter { Property = Label.TextColorProperty, Value = Color.Blue }
-            }
-            };
-
-            Resources = new ResourceDictionary();
-            Resources.Add("labelRedStyle", labelRedStyle);
-            Resources.Add("labelGreenStyle", labelGreenStyle);
-            Resources.Add("labelBlueStyle", labelBlueStyle);
-            ***/
-            //Resources = Application.Current.Resources;
-
             InitializeComponent();
+            //System.Diagnostics.Debug.WriteLine("Dev Name:" + Application.Current.Properties["Dev Name"] as string);
+            Debug.WriteLine("****************************"+Application.Current.Properties["Dev Name"] as string);
         }
 }
 }

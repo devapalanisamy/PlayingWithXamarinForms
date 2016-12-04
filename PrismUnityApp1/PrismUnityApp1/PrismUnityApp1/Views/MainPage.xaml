@@ -7,7 +7,7 @@
              x:Class="PrismUnityApp1.Views.MainPage"
              Title="TG Staff">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
-    <Label Text="{Binding Title}" Style="{StaticResource labelGreenStyle}" />
+    <Label Text="{Binding Title}" Style="{StaticResource labelRedStyle}" />
   <!--  <local:CustomLabel Text="{Binding Title}" >
         <Label.FontFamily>
         <OnPlatform x:TypeArguments="x:String">

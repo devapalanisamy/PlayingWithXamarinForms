@@ -46,7 +46,7 @@ namespace PrismUnityApp1.ViewModels
                     _goToDetailPage = new DelegateCommand<ItemTappedEventArgs>(async selected =>
                     {
                         NavigationParameters param = new NavigationParameters();
-                        await _navigationService.NavigateAsync("PrismNavigationPage1");
+                        await _navigationService.NavigateAsync("PrismNavigationPage1?title=Zinga");
                     });
                 }
                 return _goToDetailPage;

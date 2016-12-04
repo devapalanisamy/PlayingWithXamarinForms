@@ -9,7 +9,7 @@
              BackgroundColor="Blue">
 
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center"  >
-    <local:CustomLabel Text="Second Page" BackgroundColor="{StaticResource default_backgroundColor}" />
+    <Label Text="{Binding Title}"  Style="{StaticResource labelRedStyle}" />
   </StackLayout>
 
 </ContentPage>
