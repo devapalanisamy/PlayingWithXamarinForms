@@ -8,8 +8,8 @@ namespace PrismUnityApp1
 {
     class ThemeColors
     {
-        public string custombackgroundColor;
-        public string customtextColor;
-        public string customnavigationBarColor;
+        public string CustomBackgroundColor;
+        public string CustomTextColor;
+        public string CustomNavigationBarColor;
     }
 }

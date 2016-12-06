@@ -11,7 +11,7 @@ namespace PrismUnityApp1
     {
         public CustomLabel()
         {
-            Style = (Style) Application.Current.Resources["labelRedStyle"];
+            Style = (Style) Application.Current.Resources["labelGreenStyle"];
         }
     }
 }

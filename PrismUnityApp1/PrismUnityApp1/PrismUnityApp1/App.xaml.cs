@@ -27,19 +27,19 @@ namespace PrismUnityApp1
             {
                 Setters = {
                 //new Setter { Property = Label.TextColorProperty, Value = Color.Red  }
-                new Setter { Property = Label.TextColorProperty, Value = Color.FromHex(customThemeColors.custombackgroundColor)  }
+                new Setter { Property = Label.TextColorProperty, Value = Color.FromHex(customThemeColors.CustomBackgroundColor)  }
             }
             };
             var labelGreenStyle = new Style(typeof(Label))
             {
                 Setters = {
-                new Setter { Property = Label.TextColorProperty, Value = Color.FromHex(customThemeColors.customtextColor) }
+                new Setter { Property = Label.TextColorProperty, Value = Color.FromHex(customThemeColors.CustomTextColor) }
             }
             };
             var labelBlueStyle = new Style(typeof(Label))
             {
                 Setters = {
-                new Setter { Property = Label.TextColorProperty, Value = Color.FromHex(customThemeColors.customnavigationBarColor) }
+                new Setter { Property = Label.TextColorProperty, Value = Color.FromHex(customThemeColors.CustomNavigationBarColor) }
             }
             };
 
