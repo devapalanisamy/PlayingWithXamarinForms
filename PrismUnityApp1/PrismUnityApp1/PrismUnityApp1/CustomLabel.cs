@@ -11,12 +11,7 @@ namespace PrismUnityApp1
     {
         public CustomLabel()
         {
-            TextColor = Color.Red;
-            FontFamily = Device.OnPlatform(
-                                             "Myriad Pro",
-                                             "Lobster-Regular.ttf#Lobster-Regular", // Android
-                                             null
-                                           );
+            Style = (Style) Application.Current.Resources["labelRedStyle"];
         }
     }
 }

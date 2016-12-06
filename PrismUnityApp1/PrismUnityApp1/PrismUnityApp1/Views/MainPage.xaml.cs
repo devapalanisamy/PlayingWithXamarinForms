@@ -10,7 +10,7 @@ namespace PrismUnityApp1.Views
         {
             InitializeComponent();
             //System.Diagnostics.Debug.WriteLine("Dev Name:" + Application.Current.Properties["Dev Name"] as string);
-            Debug.WriteLine("****************************"+Application.Current.Properties["Dev Name"] as string);
+            //Debug.WriteLine("****************************"+Application.Current.Properties["Dev Name"] as string);
         }
 }
 }
