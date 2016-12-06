@@ -56,6 +56,7 @@ namespace PrismUnityApp1
             Container.RegisterTypeForNavigation<RootPage>();
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<PrismNavigationPage1>();
+            Container.RegisterTypeForNavigation<WebViewPage>();
         }
 
         private ThemeColors GetThemeColors()

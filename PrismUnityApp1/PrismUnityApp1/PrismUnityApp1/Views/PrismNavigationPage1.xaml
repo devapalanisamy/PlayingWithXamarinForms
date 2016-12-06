@@ -10,6 +10,7 @@
 
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center"  >
     <local:CustomLabel Text="{Binding Title}" />
+   <Button Text=" Go to Web page" Command="{Binding GoToDetailPage}" />
   </StackLayout>
 
 </ContentPage>
